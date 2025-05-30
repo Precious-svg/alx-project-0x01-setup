@@ -53,6 +53,6 @@ export async function getStaticProps() {
         posts
       }
     }
-  }
+}
 
-export default Users
+export default Users;
