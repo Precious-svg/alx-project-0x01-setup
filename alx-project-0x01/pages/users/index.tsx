@@ -38,7 +38,7 @@ const Users: React.FC<UsersPageProps> = ({ posts }) => {
       <UserModal
         isOpen={isModalOpen}
         onClose={() => setIsModalOpen(false)}
-        onAddUser={handleAddUser}
+        onSubmit={handleAddUser}
       />
     </div>
   )
